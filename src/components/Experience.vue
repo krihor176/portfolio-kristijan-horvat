@@ -674,8 +674,14 @@
     .experience {
       gap: var(--gap-12xl);
     }
+
+    .cleaning-warehouse-picking {
+    max-width: 60%;
+  }
   }
   @media screen and (max-width: 750px) {
+
+    
     .experience1 {
       font-size: var(--font-size-5xl);
     }

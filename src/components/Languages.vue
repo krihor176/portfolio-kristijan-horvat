@@ -140,6 +140,13 @@
     font-family: var(--font-poppins);
   }
 
+  @media screen and (max-width: 850px) {
+    .additional-language-child {
+      display: none;
+    }
+  }
+
+
   @media screen and (max-width: 750px) {
     .languages1 {
       font-size: var(--font-size-5xl);

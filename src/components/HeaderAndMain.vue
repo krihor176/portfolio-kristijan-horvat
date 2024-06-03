@@ -803,6 +803,10 @@
 
 }
 
+.head {
+  width: 100%;
+}
+
   @media screen and (max-width: 1200px) {
     .social-media {
       gap: var(--gap-45xl);
@@ -812,10 +816,30 @@
       padding-bottom: var(--padding-140xl);
       box-sizing: border-box;
     }
+
+    .fbf802-9987-49e5-a4e1-217925a9-icon {
+      width: 186.5px !important;
+    right: 112.5px !important;
+    object-fit: contain !important;
+    }
+
+    .ambitious-and-motivated-but-a1,
+  .i-always-think-positively-and,
+  .help-others-and-learn-new-thin,
+  .i-am-openminded-and-always-rea,
+  .i-am-not-afraid-of-failure-i {
+    font-size: 18px;
+  }
   }
   @media screen and (max-width: 1050px) {
     .menu {
       flex-wrap: wrap;
+    }
+
+    .fbf802-9987-49e5-a4e1-217925a9-icon {
+      width: 186.5px !important;
+    right: 112.5px !important;
+    object-fit: contain !important;
     }
 
     .lower-content {
@@ -823,7 +847,72 @@
       padding-right: var(--padding-8xl);
       box-sizing: border-box;
     }
+
+    .ambitious-and-motivated-but-a1,
+  .i-always-think-positively-and,
+  .help-others-and-learn-new-thin,
+  .i-am-openminded-and-always-rea,
+  .i-am-not-afraid-of-failure-i {
+    font-size: 15px;
   }
+
+  .video-c-v {
+    position: relative;
+  overflow: hidden;
+  width: 75%;
+  }
+
+  .step-into-my {
+    font-size: 15px;
+        width: 200px;
+        height: auto;
+        margin-right: 200px;
+  }
+
+  .social-icons {
+    margin-top: 70px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .c-v-area {
+    margin-top: 5px;
+    margin-left: -14px;
+  }
+
+  .github-area {
+    margin-left: -14px;
+  }
+
+  .linked-in-area {
+    margin-left: -3px;
+  }
+
+  .education {
+    margin-top: 60px;
+  }
+
+  .education-content {
+    width: 350px;
+  }
+
+  .education-child {
+    height: 523.5px;
+    left: 3px;
+  }
+
+  .graduation-cap-icon {
+    display: none;
+  }
+
+
+}
+
+@media screen and (max-width: 850px) {
+  .fbf802-9987-49e5-a4e1-217925a9-icon {
+    display: none;
+  }
+}
   @media screen and (max-width: 750px) {
     .home1 {
       font-size: var(--font-size-9xl);
@@ -867,8 +956,23 @@
     .header-and-main {
       gap: var(--gap-2xl);
     }
+    .ambitious-and-motivated-but-a1,
+  .i-always-think-positively-and,
+  .help-others-and-learn-new-thin,
+  .i-am-openminded-and-always-rea,
+  .i-am-not-afraid-of-failure-i {
+    font-size: 13px;
+  }
   }
   @media screen and (max-width: 450px) {
+
+    .ambitious-and-motivated-but-a1,
+  .i-always-think-positively-and,
+  .help-others-and-learn-new-thin,
+  .i-am-openminded-and-always-rea,
+  .i-am-not-afraid-of-failure-i {
+    font-size: 12px;
+  }
     .home1 {
       font-size: var(--font-size-3xl);
     }
