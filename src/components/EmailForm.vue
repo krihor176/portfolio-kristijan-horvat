@@ -315,6 +315,18 @@ export default {
     font-family: var(--body1);
   }
 
+  @media screen and (max-width: 1050px) {
+    .email-form {
+      width: 60%;
+      left: 350px;
+    }
+
+    .input-field {
+      width: 80%;
+    }
+  }
+
+
   @media screen and (max-width: 750px) {
     .first-name-field {
       flex-wrap: wrap;
@@ -325,6 +337,14 @@ export default {
       padding-right: var(--padding-4xl);
       box-sizing: border-box;
       height: auto;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .email-form {
+      width: 100%;
+        left: 0px;
+        top: 50px;
     }
   }
   @media screen and (max-width: 450px) {

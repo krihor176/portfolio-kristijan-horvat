@@ -111,14 +111,14 @@
       <a href="public/WEB3 (1).zip" download="WEB3 (1).zip" style="text-decoration: underline; text-decoration-color: #D40848 ; color: inherit;">
       <p class="group-grgur">Download the website</p> </a>
     </div>
-    <div class="rectangle-div" />
+    <div class="rectangle-div"/>
     <div class="trapholt-website-container2">
       <p class="trapholt-website-2">
         Promotional video about Denmark
       </p>
       <p class="group-grgur2">Project for BHV agency - Croatia</p>
     </div>
-    <div class="screenshot-2024-04-17-at-22533">
+    <div class="screenshot-2024-04-17-at-22533 yt-small">
       <iframe width="360" height="160" src="https://www.youtube.com/embed/EC4PEXsV6DI?si=oyWRtokCIDy7Fbco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
     </div>
     <div class="trapholt-website-container3">
@@ -678,6 +678,61 @@
     .cleaning-warehouse-picking {
     max-width: 60%;
   }
+
+  .festival-marker-child,
+  .warehouse-marker-child {
+      left: 11px;
+    }
+
+  .rectangle-div {
+    left: -10px;
+  }
+
+  .trapholt-website-container,
+  .trapholt-website-container4 {
+    font-size: small;
+  }
+
+  .trapholt-website-container2 {
+    left: 45px;
+    font-size: small;
+  }
+
+  .experience-child2 {
+    left: -10px;
+    margin-bottom: 200px !important;
+
+  }
+
+  .trapholt-website-container4 {
+    margin-bottom: 200px !important;
+    left: 40px;
+  }
+  .intday-poster {
+    margin-bottom: 200px !important;  
+    left: 40px;
+
+  }
+
+  .exam-marker-child {
+    display: none;
+  }
+
+  .trapholt-website-container1 {
+    bottom: -150px;
+    left: 40px;
+    font-size: small;
+  }
+
+  .trapholt-website-container3 {
+    top: 2000px;
+    left: 40px;
+    font-size: small;
+  }
+
+
+
+  
   }
   @media screen and (max-width: 750px) {
 
@@ -694,7 +749,78 @@
     .projects2 {
       font-size: var(--font-size-5xl);
     }
+
+    
   }
+
+  @media screen and (max-width: 550px) {
+    .rectangle-div {
+      left: -30px;
+      width: 80%;
+      top: 1000px;
+    }
+
+    .trapholt-website-container2 {
+      top: 1010px;
+      left: 0px;
+    }
+
+    .yt-small {
+      position: relative;
+      overflow: hidden;
+      width: 50%;
+      left: -180px;
+      top: -220px;
+    }
+
+    .exam-project {
+      width: 80%;
+      left: -30px;
+    }
+
+    .trapholt-website-container {
+      left: -10px;
+    }
+
+    .trapholtss,
+    .intday-poster{
+      width: 252px;
+      height: 160px;
+    }
+
+    .experience-child2 {
+      left: -30px;
+      margin-bottom: 0px !important;
+      width: 80%;
+    }
+
+    .trapholt-website-container4 {
+      margin-bottom: 0px !important;
+      left: 0px;
+    }
+
+    .intday-poster {
+      top: 1400px;
+      left: 0px;
+    }
+
+    .trapholt-website-container1 {
+      bottom: -340px;
+      left: 0px;
+    }
+
+    .trapholt-website-container3 {
+      top: 1960px;
+      left: 0px;
+      font-size: x-small;
+    }
+
+
+
+
+
+  }
+
   @media screen and (max-width: 450px) {
     .experience1 {
       font-size: var(--font-size-xl);

@@ -190,6 +190,21 @@
     box-sizing: border-box;
   }
 
+  .content {
+    left: 130px;
+    top: 4420px;
+  }
+
+  .content-child {
+    top: 562px;
+    left: -716px;
+  }
+
+  .joblauncher {
+    top: 632px;
+    left: -666px;
+  }
+
   .skillset {
     gap: 32px;
   }
@@ -217,6 +232,35 @@
     box-sizing: border-box;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .border {
+    width: 96% !important;
+    left: -90px;
+  }
+
+  .drivingschool {
+    left: -95px;
+    height: 160px;
+    object-fit: contain;
+  }
+
+  .content-child {
+    width: 96% !important;
+    left: -756px;
+  }
+
+  .joblauncher {
+    flex: none;
+    width: 252px;
+    height: 160px;
+    left: -730px;
+  }
+
+
+
+}
+
 
 @media screen and (max-width: 450px) {
   .main-structure {

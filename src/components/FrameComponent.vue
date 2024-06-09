@@ -211,6 +211,27 @@
     .footer-menu {
       flex-wrap: wrap;
     }
+
+    @media screen and (max-width: 1050px) {
+      .footer-navigation {
+        top: 200px;
+        position: relative;
+        left: 95px;
+      }
+
+      .footer-menu {
+        margin-top: 200px;
+      }
+
+      .contact-details {
+        left: -400px;
+        position: relative;
+        top: 380px;
+      }
+
+      
+    }
+
   }
   @media screen and (max-width: 750px) {
     .message-form {
@@ -218,6 +239,20 @@
       max-height: 600px;
     }
   }
+
+  @media screen and (max-width: 550px) {
+    .footer-navigation {
+      top: 1000px;
+      left: 200px;
+    }
+
+    .contact-details {
+      left: 110px;
+      top: 980px;
+    }
+
+  }
+
   @media screen and (max-width: 450px) {
     .home2 {
       font-size: var(--body1-size);

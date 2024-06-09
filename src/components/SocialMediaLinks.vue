@@ -89,4 +89,45 @@
     bottom: 0px;
     left: 0px;
   }
+
+  @media screen and (max-width: 1050px) {
+    .social-media-links-child,
+    .social-media-links-item,
+    .social-media-links-inner {
+      display: none;
+    }
+
+    .linkedin-icon1 {
+      top: 410px;
+      left: 20px;
+    }
+
+    .image-6-icon {
+      top: 410px;
+      left: 170px;
+    }
+
+    .github-icon1 {
+      top: 410px;
+      left: 320px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .footer-background {
+      margin-top: 580px;
+      height: 1200px;
+  }
+
+  .linkedin-icon1,
+  .image-6-icon,
+  .github-icon1 {
+    margin-left: 70px;
+    top: 1600px;
+  }
+  }
+
+
 </style>
+
+

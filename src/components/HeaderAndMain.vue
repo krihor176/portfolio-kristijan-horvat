@@ -964,6 +964,14 @@
     font-size: 13px;
   }
   }
+
+  @media screen and (max-width: 550px) {
+    .step-into-my {
+      font-size: 13px;
+      width: 15%;
+      margin-right: 390px;
+    }
+  }
   @media screen and (max-width: 450px) {
 
     .ambitious-and-motivated-but-a1,
