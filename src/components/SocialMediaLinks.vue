@@ -127,6 +127,16 @@
   }
   }
 
+  @media screen and (max-width: 550px) {
+    .linkedin-icon1,
+    .image-6-icon,
+    .github-icon1 {
+      margin-left: 25px;
+      top: 450px;
+    }
+  }
+
+
 
 </style>
 

@@ -254,6 +254,25 @@
   }
 
   @media screen and (max-width: 450px) {
+
+
+
+    .footer-navigation {
+      left: 150px;
+    }
+
+    .kristijankiki13gmailcom1 {
+      left: 15px;
+    }
+
+    .contact-details {
+      left: 70px;
+    }
+
+    .email-address-icon-wrapper,
+    .wrapper {
+      margin-left: 50px;
+    }
     .home2 {
       font-size: var(--body1-size);
     }

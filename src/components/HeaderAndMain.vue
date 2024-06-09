@@ -864,9 +864,9 @@
 
   .step-into-my {
     font-size: 15px;
-        width: 200px;
-        height: auto;
-        margin-right: 200px;
+    width: 200px;
+    height: auto;
+    margin-right: 200px;
   }
 
   .social-icons {
@@ -914,6 +914,21 @@
   }
 }
   @media screen and (max-width: 750px) {
+
+    .video-c-v {
+      display: flex;
+      flex-direction: column;
+      width: 33%;
+    }
+
+    .step-into-my {
+      font-size: 13px;
+      width: 15%;
+      width: 90%;
+      margin-left: 0;
+      top: 30px;
+      margin-bottom: 80px;
+    }
     .home1 {
       font-size: var(--font-size-9xl);
     }
@@ -969,7 +984,16 @@
     .step-into-my {
       font-size: 13px;
       width: 15%;
-      margin-right: 390px;
+      width: 90%;
+      margin-left: 0;
+      top: 30px;
+      margin-bottom: 80px;
+    }
+
+    .video-c-v {
+      display: flex;
+      flex-direction: column;
+      width: 33%;
     }
   }
   @media screen and (max-width: 450px) {

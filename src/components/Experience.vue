@@ -95,7 +95,7 @@
     <div class="exam-project">
       
       <div class="project-image" />
-      <img
+            <img
         class="trapholtss"
         alt=""
         src="/trapholtss.png"
@@ -822,6 +822,36 @@
   }
 
   @media screen and (max-width: 450px) {
+
+    .trapholt-website-container,
+    .trapholt-website-container1,
+    .trapholt-website-container2,
+    .trapholt-website-container4,
+    .trapholt-website-3 {
+      font-size: 9px;
+    }
+
+    .trapholt-website-3 {
+      margin-left: -10px;
+      margin-top: -90px;
+    }
+
+    .trapholtss,
+    .intday-poster{
+      width: 220px;
+      left: 20px;
+      object-fit: contain;
+    }
+
+    .intday-poster {
+      left: -10px;
+    }
+
+    .yt-small {
+      top: -170px;
+      width: 70%;
+      left: -112px;
+    }
     .experience1 {
       font-size: var(--font-size-xl);
     }

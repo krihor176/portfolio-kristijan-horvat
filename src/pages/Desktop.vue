@@ -274,5 +274,35 @@
   .desktop-1 {
     gap: var(--gap-12xl);
   }
+
+  .border {
+    width: 72% !important;
+    top: -210px;
+  }
+
+  .drivingschool {
+    left: -75px;
+    height: 160px;
+    flex: none;
+    width: 220px;
+    top: -140px;
+  }
+
+  .content-child {
+    width: 72% !important;
+    top: 380px;
+  }
+
+  .joblauncher {
+    width: 220px;
+    top: 450px;
+    left: -740px;
+  }
+
+  .desktop-1 {
+      width: 100% !important;
+      height: 6000px !important;
+      overflow: hidden;
+    }
 }
 </style>
