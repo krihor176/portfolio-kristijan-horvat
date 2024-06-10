@@ -7,8 +7,8 @@
             <img
               class="business-icon"
               loading="lazy"
-              alt=""
-              src="/business@2x.png"
+              alt="business icon"
+              :src="dynamicImages.businessIcon"
             />
           </div>
           <h1 class="experience1">Experience</h1>
@@ -16,7 +16,7 @@
         <div class="duration-container">
           <div class="duration-details">
             <div class="duration-marker">
-              <img class="duration-marker-child" alt="" src="/ellipse-3.svg" />
+              <img class="duration-marker-child" alt="ellipse 3" :src="dynamicImages.ellipse3" />
             </div>
             <div class="feb-2024-">Feb 2024 - currently</div>
           </div>
@@ -33,7 +33,7 @@
       <div class="festival-details">
         <div class="festival-duration">
           <div class="festival-marker">
-            <img class="festival-marker-child" alt="" src="/ellipse-2.svg" />
+            <img class="festival-marker-child" alt="ellipse 2" :src="dynamicImages.ellipse2" />
           </div>
           <div class="summers-of-2022">Summers of 2022 & 2023</div>
         </div>
@@ -51,7 +51,7 @@
       <div class="warehouse-details">
         <div class="warehouse-duration">
           <div class="warehouse-marker">
-            <img class="warehouse-marker-child" alt="" src="/ellipse-2.svg" />
+            <img class="warehouse-marker-child" alt="ellipse 2" :src="dynamicImages.ellipse2" />
           </div>
           <div class="summers-of-2019">Summers of 2019 & 2020</div>
         </div>
@@ -65,53 +65,47 @@
           </div>
         </div>
       </div>
-      <img class="warehouse-work-child" alt="" src="/ellipse-2.svg" />
+      <img class="warehouse-work-child" alt="ellipse 2" :src="dynamicImages.ellipse2" />
     </div>
     <div class="experience-inner">
-      <img class="ellipse-icon" alt="" src="/ellipse-2.svg" />
+      <img class="ellipse-icon" alt="ellipse 2" :src="dynamicImages.ellipse2" />
     </div>
     <div class="experience-child">
-      <img class="frame-child1" alt="" src="/ellipse-2.svg" />
+      <img class="frame-child1" alt="ellipse 2" :src="dynamicImages.ellipse2" />
     </div>
     <div class="frame-div">
-      <img class="frame-child2" alt="" src="/ellipse-2.svg" />
+      <img class="frame-child2" alt="ellipse 2" :src="dynamicImages.ellipse2" />
     </div>
-    <img class="experience-item" loading="lazy" alt="" src="/line-1-1.svg" />
-    <img class="line-icon" alt="" src="/line-21.svg" />
+    <img class="experience-item" loading="lazy" alt="line 1-1" :src="dynamicImages.line11" />
+    <img class="line-icon" alt="line 21" :src="dynamicImages.line21" />
     <div class="exam-marker">
-      <img class="exam-marker-child" alt="" src="/ellipse-2.svg" />
+      <img class="exam-marker-child" alt="ellipse 2" :src="dynamicImages.ellipse2" />
     </div>
     <div id="projects" class="projects2">Projects</div>
-      <img class="experience-child1" alt="" src="/line-22.svg" />
+    <img class="experience-child1" alt="line 22" :src="dynamicImages.line22" />
     <div class="trapholt-website-container">
       <p class="trapholt-website-">
-        Trapholt website - Exam project, 1st semestar
+        Trapholt website - Exam project, 1st semester
       </p>
       <p class="group-grgur">Group - Grgur Ivić, Kristijan Horvat</p>
-      <a href="public/exam_project.zip" download="exam_project.zip" style="text-decoration: underline; text-decoration-color: #D40848 ; color: inherit;">
-      <p class="group-grgur">Download the website</p> </a>
+      <a href="public/exam_project.zip" download="exam_project.zip" style="text-decoration: underline; text-decoration-color: #D40848; color: inherit;">
+        <p class="group-grgur">Download the website</p>
+      </a>
     </div>
-    
     <div class="exam-project">
-      
       <div class="project-image" />
-            <img
-        class="trapholtss"
-        alt=""
-        src="/trapholtss.png"
-      />
+      <img class="trapholtss" alt="trapholt screenshot" :src="dynamicImages.trapholtScreenshot" />
     </div>
     <div class="trapholt-website-container1">
-      <p class="trapholt-website-1">
-      Website for driving school company       
-      </p>
+      <p class="trapholt-website-1">Website for driving school company</p>
       <p class="group-grgur1">
         Project for High school - May 2022
       </p>
-      <a href="public/WEB3 (1).zip" download="WEB3 (1).zip" style="text-decoration: underline; text-decoration-color: #D40848 ; color: inherit;">
-      <p class="group-grgur">Download the website</p> </a>
+      <a href="public/WEB3 (1).zip" download="WEB3 (1).zip" style="text-decoration: underline; text-decoration-color: #D40848; color: inherit;">
+        <p class="group-grgur">Download the website</p>
+      </a>
     </div>
-    <div class="rectangle-div"/>
+    <div class="rectangle-div" />
     <div class="trapholt-website-container2">
       <p class="trapholt-website-2">
         Promotional video about Denmark
@@ -119,33 +113,57 @@
       <p class="group-grgur2">Project for BHV agency - Croatia</p>
     </div>
     <div class="screenshot-2024-04-17-at-22533 yt-small">
-      <iframe width="360" height="160" src="https://www.youtube.com/embed/EC4PEXsV6DI?si=oyWRtokCIDy7Fbco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+      <iframe
+        width="360"
+        height="160"
+        src="https://www.youtube.com/embed/EC4PEXsV6DI?si=oyWRtokCIDy7Fbco"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
     </div>
     <div class="trapholt-website-container3">
       <p class="trapholt-website-3">
-        Job launcher app  - project for UX class 1st semester <br> Group - Anna T, Lachezar T, Aimilia D, Kristijan H
+        Job launcher app - project for UX class 1st semester
+        <br />Group - Anna T, Lachezar T, Aimilia D, Kristijan H
       </p>
     </div>
     <div class="experience-child2" />
     <div class="trapholt-website-container4">
-      <p class="trapholt-website-4"> Posters for international day at EASV
+      <p class="trapholt-website-4">
+        Posters for international day at EASV
       </p>
-      <a href="public/poster.zip" download="poster.zip" style="text-decoration: underline; text-decoration-color: #D40848 ; color: inherit;">
-      <p class="group-grgur4">Download the posters</p></a>
+      <a href="public/poster.zip" download="poster.zip" style="text-decoration: underline; text-decoration-color: #D40848; color: inherit;">
+        <p class="group-grgur4">Download the posters</p>
+      </a>
     </div>
-    <img
-      class="intday-poster"
-      alt=""
-      src="/intday-poster.png"
-    />
+    <img class="intday-poster" alt="international day poster" :src="dynamicImages.intdayPoster" />
   </div>
 </template>
-<script>
-  import { defineComponent } from "vue";
 
-  export default defineComponent({
-    name: "Experience",
-  });
+<script>
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "Experience",
+  data() {
+    return {
+      dynamicImages: {
+        businessIcon: "/business@2x.png",
+        ellipse3: "/ellipse-3.svg",
+        ellipse2: "/ellipse-2.svg",
+        line11: "/line-1-1.svg",
+        line21: "/line-21.svg",
+        line22: "/line-22.svg",
+        trapholtScreenshot: "/trapholtss.png",
+        intdayPoster: "/intday-poster.png"
+      }
+    };
+  }
+});
 </script>
 <style scoped>
   .business-icon {

@@ -6,11 +6,11 @@
     <img class="social-media-links-item" alt="" src="/ellipse-2.svg" />
     <img class="social-media-links-inner" alt="" src="/ellipse-2.svg" />
     <a href="https://linkedin.com/in/kristijan-horvat-488b6227b/" target="_blank" style="text-decoration: none; color: inherit;">
-    <img class="linkedin-icon1" alt="" src="/linkedin@2x.png" /> </a>
+    <img class="linkedin-icon1" alt="" :src="dynamicImages.linkedinSmallIcon" /> </a>
     <a href="https://www.facebook.com/kristijan.horvat.3958/" target="_blank" style="text-decoration: none; color: inherit;">
-    <img class="image-6-icon" alt="" src="/image-6@2x.png" /> </a>
+    <img class="image-6-icon" alt="" :src="dynamicImages.facebookSmallIcon" /> </a>
     <a href="https://github.com/krihor176" target="_blank" style="text-decoration: none; color: inherit;">
-    <img class="github-icon1" alt="" src="/github@2x.png" /> </a>
+    <img class="github-icon1" alt="" :src="dynamicImages.githubSmallIcon" /> </a>
   </section>
 </template>
 <script>
@@ -18,7 +18,16 @@
 
   export default defineComponent({
     name: "SocialMediaLinks",
-  });
+    data() {
+      return {
+        dynamicImages: {
+          githubSmallIcon: "/github@2x.png",
+          facebookSmallIcon: "/image-6@2x.png",
+          linkedinSmallIcon: "/linkedin@2x.png"
+        }
+    };
+  }
+});
 </script>
 <style scoped>
   .footer-background {

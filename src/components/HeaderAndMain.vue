@@ -42,7 +42,9 @@
               <div class="icons">
                 <div class="linked-in-area">
                   <a href="https://linkedin.com/in/kristijan-horvat-488b6227b/" target="_blank" style="text-decoration: none; color: inherit;">
-                  <img class="linkedin-icon" alt="" src="/linkedin@2x.png" /></a>
+                  <img class="linkedin-icon" alt="" :src="dynamicImages.linkedinIcon" /></a>
+
+
                   <div class="linked-in-link">
                     <div class="linked-in-button">
                       <a href="https://linkedin.com/in/kristijan-horvat-488b6227b/" target="_blank" style="text-decoration: none; color: inherit;">
@@ -57,18 +59,13 @@
                 <div class="github-area-child" />
                 <a href="https://github.com/krihor176" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="github">GitHub</div>
-                <img class="github-icon" alt="" src="/github@2x.png" />
+                <img class="github-icon" alt="" :src="dynamicImages.githubIcon" />
                 </a>
               </div>
               <div class="email-area">
                
                 <div class="email-icon">
-                  <img
-                    class="email-icon1"
-                    loading="lazy"
-                    alt=""
-                    src="/email@2x.png"
-                  />
+                  <img class="email-icon1" loading="lazy" alt="" :src="dynamicImages.emailIcon" />
                 </div>
                 <div class="email-link"> 
                     <a href="mailto:kristijan.kiki13@gmail.com" style="text-decoration: none; color: inherit;">
@@ -86,7 +83,7 @@
                   <a href="public/CV - Horvat K (Poslovni papiri) (4).pdf" download="CV - Horvat K (Poslovni papiri) (4).pdf" class="cv-button" style="text-decoration: none; color: inherit;">
                   <div class="c-v-area-child" />
                   <div class="cv">CV</div>
-                  <img class="resume-icon" alt="" src="/resume@2x.png" />
+                  <img class="resume-icon" alt="" :src="dynamicImages.resumeIcon"/>
                   </a>
                 </div>
             </div>
@@ -179,7 +176,18 @@
 
   export default defineComponent({
     name: "HeaderAndMain",
-  });
+      data() {
+        return {
+          dynamicImages: {
+            linkedinIcon: "/linkedin@2x.png",
+            githubIcon: "/github@2x.png",
+            resumeIcon: "/resume@2x.png",
+            emailIcon: "/email@2x.png"
+      }
+    };
+  }
+});
+
 </script>
 <style scoped>
 
@@ -995,6 +1003,10 @@
       flex-direction: column;
       width: 33%;
     }
+
+    .head {
+      width: 35% !important;
+    }
   }
   @media screen and (max-width: 450px) {
 
@@ -1008,6 +1020,8 @@
     .home1 {
       font-size: var(--font-size-3xl);
     }
+
+    
 
     .about-me1 {
       font-size: var(--font-size-3xl);
